@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>雅雅最可爱的粉色悬浮文字</title>
+    <style>
+        .transparent-btn {
+            background-color: #4a8de4;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin: 4px 2px;
+            cursor: pointer;
+            width: 100px; /* 设置宽度为100px */
+            border-radius: 5px; /* 添加圆角 */
+        }
+
+        #opacitySlider {
+            background-color: #4a8de4;
+            color: white;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin: 4px 2px;
+            cursor: pointer;
+            width: 100px; /* 设置宽度为70px */
+            padding: 0; /* 移除内边距 */
+            height: 22px; /* 设置高度以匹配按钮高度 */
+            vertical-align: middle; /* 垂直居中 */
+        }
+
+        .opacity-text {
+            font-size: 14px;
+            color: #4a8de4;
+            font-weight: bold;
+            display: inline-block;
+            margin-right: 4px;
+            vertical-align: middle; /* 垂直居中 */
+        }
+
+        .opacity-container {
+            display: inline-block;
+            width: 140px; /* 设置容器宽度为100px */
+            vertical-align: middle; /* 垂直居中 */
+        }
+    </style>
+</head>
+<body>
+<div id="activateBtn" class="transparent-btn">隐藏</div>
+<div class="opacity-container">
+    <span class="opacity-text">透明度</span>
+    <input type="range" id="opacitySlider" min="0" max="100" value="100" style="width: 85px;"> <!-- 添加透明度调整滑动条 -->
+</div>
+<script src="popup.js"></script>
+</body>
+</html>

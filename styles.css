@@ -1,0 +1,16 @@
+#yaya-floating-text {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(240, 240, 240,0.7); /* 颜色加深并保持透明度 */
+    color: #ff69b4; /* 更深的粉色 */
+    padding: 8px;
+    font-size: 26px; /* 字体大小增加 10px */
+    cursor: move;
+    border-radius: 5px;
+    z-index: 9999;
+}
+
+#yaya-floating-text:hover {
+    opacity: 1; /* 鼠标悬停时完全不透明 */
+}
